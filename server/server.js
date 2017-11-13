@@ -50,7 +50,7 @@ app.post('/api/new', function(req, res){
                 res.send(err)
             } else {
                 res.json({
-                    result: 'succeed',
+                    result: 'success',
                 })
             }
         })
